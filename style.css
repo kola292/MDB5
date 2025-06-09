@@ -1,0 +1,179 @@
+/* style.css */
+
+/* General Reset & Fonts */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+section {
+  padding: 80px 0;
+}
+
+
+/* Navbar Brand Styling */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: white !important;
+}
+
+/* Nav Link Styling */
+.nav-link {
+  font-weight: 500;
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f0db4f !important; /* Optional: Accent hover color */
+}
+
+/* Optional: active page highlighting */
+.nav-link.active {
+  border-bottom: 2px solid #f0db4f;
+}
+
+
+/* Home Section */
+
+/* Accent color for branding (adjust as needed) */
+.text-accent {
+  color: #f0db4f;
+}
+
+.btn-accent {
+  background-color: #f0db4f;
+  color: #003366;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: #e0c939;
+  color: #002244;
+}
+
+/* Hero Section Styling */
+#home {
+  position: relative;
+  min-height: 100vh;
+  background-color: #003366;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  overflow: hidden;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('./img/2.jpg') center/cover no-repeat;
+  filter: brightness(0.75);
+  z-index: 0;
+}
+
+#home::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 51, 102, 0.5);
+  z-index: 1;
+}
+
+#home .container {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+
+/* Accent text in soft cyan */
+.text-accent {
+  color: #E1E8EB;
+}
+
+/* Buttons */
+.btn-accent {
+  background-color:#003366;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.btn-accent:hover {
+  background-color: #ffffff; /* slightly darker cyan */
+  color: #003366;
+}
+
+/* Secondary button (outline white) */
+.btn-outline-light {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.btn-outline-light:hover {
+  background-color: #ffb300; /* warm gold hover */
+  border-color: #ffb300;
+  color: #003366;
+}
+
+
+
+
+/* About Section - Flexbox */
+#about .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+#about img {
+  flex: 1 1 300px;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px; /* Limit image height */
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#about .text-box {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+footer a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f0db4f; /* Optional hover color for contrast */
+}
+
+footer i {
+  font-size: 18px;
+}
+

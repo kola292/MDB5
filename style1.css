@@ -1,0 +1,113 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+header, footer {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+main {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1 1 300px;
+  max-width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-text {
+  flex: 2 1 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-text p {
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.about-image {
+  flex: 1 1 300px;
+  max-width: 350px;
+  height: 300px; /* Set the desired height */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .about-image, .about-text {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+  .about-text {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+/* Responsive */
+    @media (max-width: 700px) {
+      main {
+        flex-direction: column;
+        padding: 20px;
+      }
+      .about-image, .about-text {
+        max-width: 100%;
+        flex: 1 1 100%;
+      }
+      .about-text {
+        margin-top: 20px;
+      }
+    }

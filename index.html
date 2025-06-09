@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TrustWave Bank</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet" />
+  <!-- MDB5 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+  <!-- Font Awesome for hamburger icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <!-- MDB5 -->
+  <!-- Animate.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top shadow" style="background-color: #003366;" data-mdb-theme="dark">
+  <div class="container">
+    <a class="navbar-brand text-white fw-bold fs-4" href="#">TrustWave Bank</a>
+
+    <button class="navbar-toggler text-white" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto gap-3">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#register">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home -->
+<section id="home">
+  <div class="container text-center">
+    <h1 class="display-3 fw-bold mb-4 animate__animated animate__fadeInDown">
+      Welcome to <span class="text-accent">TrustWave Bank</span>
+    </h1>
+    <p class="lead mb-5 animate__animated animate__fadeInUp text-white-50">
+      Trusted Banking Solutions for a Secure Digital Future
+    </p>
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <a href="#register" class="btn btn-accent btn-lg px-4 animate__animated animate__fadeInLeft" role="button">
+        Open Account
+      </a>
+      <a href="about.html" class="btn btn-outline-light btn-lg px-4 animate__animated animate__fadeInRight" role="button">
+        Learn More
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Services -->
+<section id="services" class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="mb-5 fw-bold" style="color: #003366;">Our Services</h2>
+    <div class="row">
+      
+      <!-- Online Banking -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm hover-shadow">
+          <div class="card-body">
+            <div class="mb-4 text-primary">
+              <i class="fas fa-university fa-3x"></i>
+            </div>
+            <h5 class="card-title fw-bold">Online Banking</h5>
+            <p class="card-text text-muted">Enjoy 24/7 access to your accounts with secure and user-friendly tools.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Loans -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm hover-shadow">
+          <div class="card-body">
+            <div class="mb-4 text-success">
+              <i class="fas fa-hand-holding-usd fa-3x"></i>
+            </div>
+            <h5 class="card-title fw-bold">Loans</h5>
+            <p class="card-text text-muted">Flexible Personal, Business, and Education loans at competitive rates.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Investments -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm hover-shadow">
+          <div class="card-body">
+            <div class="mb-4 text-warning">
+              <i class="fas fa-chart-line fa-3x"></i>
+            </div>
+            <h5 class="card-title fw-bold">Investments</h5>
+            <p class="card-text text-muted">Grow your wealth with diversified portfolios and expert guidance.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- FAQ -->
+<section id="faq" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5" style="color: #003366;">Frequently Asked Questions</h2>
+
+    <div class="accordion" id="faqAccordion">
+      
+      <!-- FAQ 1 -->
+      <div class="accordion-item border rounded mb-3 shadow-sm">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#faq1"
+                  aria-expanded="true"
+                  aria-controls="faq1">
+            <i class="fas fa-user-plus me-2 text-primary"></i> How do I open an account?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-mdb-parent="#faqAccordion">
+          <div class="accordion-body">
+            Opening an account is simple. Just complete the online registration form, and one of our representatives will contact you to finalize the process.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="accordion-item border rounded mb-3 shadow-sm">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#faq2"
+                  aria-expanded="false"
+                  aria-controls="faq2">
+            <i class="fas fa-shield-alt me-2 text-success"></i> Is online banking secure?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-mdb-parent="#faqAccordion">
+          <div class="accordion-body">
+            Absolutely. We implement military-grade encryption, multi-factor authentication, and constant security monitoring to protect your data and financial information.
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more FAQ items here as needed -->
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Benefits -->
+<section id="benefits" class="bg-white py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5" style="color: #003366;">Why Choose TrustWave?</h2>
+
+    <div class="row text-center g-4">
+      <!-- Benefit 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body">
+            <i class="fas fa-percent fa-2x text-primary mb-3"></i>
+            <h6 class="fw-bold">Low-Interest Loans</h6>
+            <p class="text-muted small">Affordable rates designed to support your financial goals.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Benefit 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body">
+            <i class="fas fa-headset fa-2x text-success mb-3"></i>
+            <h6 class="fw-bold">24/7 Support</h6>
+            <p class="text-muted small">Our support team is here for you, anytime, anywhere.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Benefit 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body">
+            <i class="fas fa-bolt fa-2x text-warning mb-3"></i>
+            <h6 class="fw-bold">Fast Transactions</h6>
+            <p class="text-muted small">Transfer money and pay bills in seconds with ease.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Benefit 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body">
+            <i class="fas fa-mobile-alt fa-2x text-info mb-3"></i>
+            <h6 class="fw-bold">Mobile App</h6>
+            <p class="text-muted small">Bank from your phone with our secure mobile app.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Registration Form -->
+<section id="register" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5" style="color: #003366;">Register Now</h2>
+
+    <form>
+      <div class="row g-4">
+        <!-- Full Name -->
+        <div class="col-md-6">
+          <div class="form-outline">
+            <input type="text" id="fullName" class="form-control" required />
+            <label class="form-label" for="fullName">Full Name</label>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="col-md-6">
+          <div class="form-outline">
+            <input type="email" id="email" class="form-control" required />
+            <label class="form-label" for="email">Email Address</label>
+          </div>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="col-md-6">
+          <div class="form-outline">
+            <input type="tel" id="phone" class="form-control" required />
+            <label class="form-label" for="phone">Phone Number</label>
+          </div>
+        </div>
+
+        <!-- Password -->
+        <div class="col-md-6">
+          <div class="form-outline">
+            <input type="password" id="password" class="form-control" required />
+            <label class="form-label" for="password">Password</label>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-12 text-center mt-4">
+          <button type="submit" class="btn btn-primary btn-lg px-5">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+
+
+<!-- Contact -->
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4" style="color: #003366;">Contact Us</h2>
+    <p class="text-center text-muted mb-5">
+      <i class="fas fa-envelope me-2 text-primary"></i> support@trustwave.com 
+      &nbsp; | &nbsp; 
+      <i class="fas fa-phone-alt me-2 text-success"></i> +123 456 7890
+    </p>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card shadow border-0">
+          <div class="card-body p-4">
+            <form>
+              <!-- Name -->
+              <div class="form-outline mb-4">
+                <input type="text" id="name" class="form-control" required />
+                <label class="form-label" for="name">Your Name</label>
+              </div>
+
+              <!-- Email -->
+              <div class="form-outline mb-4">
+                <input type="email" id="email" class="form-control" required />
+                <label class="form-label" for="email">Your Email</label>
+              </div>
+
+              <!-- Message -->
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+                <label class="form-label" for="message">Your Message</label>
+              </div>
+
+              <!-- Submit button -->
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg px-5">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer mt-5">
+  <div class="container text-center">
+    <p class="mb-2">&copy; 2025 <strong>TrustWave Bank</strong>. All rights reserved.</p>
+    
+    <p class="mb-0">
+      <span class="me-2">Follow us on:</span>
+      <a href="#" class="text-white mx-2" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="text-white mx-2" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="text-white mx-2" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </p>
+  </div>
+</footer>
+
+
+<!-- MDB JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+ <script>
+      document.querySelectorAll('.navbar-collapse .nav-link').forEach(item => {
+      item.addEventListener('click', () => {
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        let collapseInstance = mdb.Collapse.getInstance(navbarCollapse);
+        if (!collapseInstance) {
+          collapseInstance = new mdb.Collapse(navbarCollapse);
+        }
+        collapseInstance.hide();
+      });
+    });
+  </script>
+
+</body>
+</html>
